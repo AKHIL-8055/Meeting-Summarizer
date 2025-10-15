@@ -181,8 +181,7 @@ The application uses **PostgreSQL** with the following main tables:
 | id          | BIGSERIAL (Primary Key) | Unique user ID       |
 | username    | VARCHAR                 | Username of the user |
 | password    | VARCHAR                 | Encrypted password   |
-| email       | VARCHAR                 | User email           |
-| role        | VARCHAR                 | Role (USER/ADMIN)    |
+
 
 ### `summaries` table
 
@@ -191,9 +190,8 @@ The application uses **PostgreSQL** with the following main tables:
 | id               | BIGSERIAL (Primary Key) | Summary ID                            |
 | user_id          | BIGINT (Foreign Key)    | References user who uploaded the file |
 | audio_file_name  | VARCHAR                 | Uploaded file name                    |
-| transcribed_text | TEXT                    | Full transcription of the meeting     |
 | summary_text     | TEXT                    | Short summary generated               |
-| created_at       | TIMESTAMP               | Timestamp of upload                   |
+
 
 ---
 
