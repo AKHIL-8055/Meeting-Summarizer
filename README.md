@@ -1,6 +1,3 @@
-Perfect 👍
-Here’s your **complete, single-block README.md** — clean, simple, and ready to copy in one click.
-It’s fully written for your **Meeting Summarizer** project (ReactJS frontend + Spring Boot backend + Python Whisper API).
 
 ---
 
