@@ -11,8 +11,8 @@ import java.util.Map;
 public class GeminiService {
 
     private final String GEMINI_API_URL =
-            "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=";
-    private final String GEMINI_API_KEY = "AIzaSyAG2OiPFAm-oBb_CKqIAnYXazbAOjA40SE";
+            "Gemini api url";
+    private final String GEMINI_API_KEY = "Gemini api key";
 
     public String summarizeText(String transcript) {
         try {
@@ -58,3 +58,4 @@ public class GeminiService {
         }
     }
 }
+
